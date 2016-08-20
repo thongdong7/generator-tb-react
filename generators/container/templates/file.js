@@ -5,9 +5,6 @@ import LayoutPage from './LayoutPage';
 
 // import <%= name %> from '../components/<%= name %>';
 
-var styles = StyleSheet.create({
-});
-
 export default class <%= name %>Page extends Component {
   constructor(props) {
     super(props)
@@ -24,3 +21,6 @@ export default class <%= name %>Page extends Component {
     )
   }
 }
+
+let styles = StyleSheet.create({
+});
