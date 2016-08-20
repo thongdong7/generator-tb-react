@@ -19,7 +19,7 @@ module.exports = yeoman.Base.extend({
 
     console.log('Add following lines to app/index.js');
     console.log(`import ${this.name}Page from './containers/${this.name}Page';`);
-    console.log(`<Scene key="${this.name}" component={${this.name}} title="${this.name}" initial={true} {...pageStyle} />`);
+    console.log(`<Scene key="${this.name}" component={${this.name}}Page title="${this.name}" initial={true} {...pageStyle} />`);
     // this.fs.copy(
     //   this.templatePath('dummyfile.txt'),
     //   this.destinationPath('dummyfile.txt')

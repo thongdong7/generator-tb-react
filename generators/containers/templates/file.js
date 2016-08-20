@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+
+import LayoutPage from './LayoutPage';
+
+// import <%= name %> from '../components/<%= name %>';
 
 var styles = StyleSheet.create({
 });
@@ -12,9 +16,11 @@ export default class <%= name %>Page extends Component {
 
   render() {
     return (
-      <View>
-        
-      </View>
+      <LayoutPage>
+        { /*
+          <<%= name %> />
+        */}
+      </LayoutPage>
     )
   }
 }
