@@ -18,7 +18,7 @@ export default class <%= name %>Page extends Component {
     return (
       <LayoutPage>
         { /*
-          <<%= name %> />
+        <<%= name %> />
         */}
       </LayoutPage>
     )
