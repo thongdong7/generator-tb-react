@@ -11,10 +11,17 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
+    var name = this.name
+    var items = this.name.split('/')
+    var componentName = items[items.length - 1]
+    console.log('componentName', componentName)
     this.fs.copyTpl(
       this.templatePath('file.js'),
       this.destinationPath(`app/components/${this.name}.js`),
-      { name: this.name }
+      {
+        componentName,
+        name: this.name
+      }
     );
     // this.fs.copy(
     //   this.templatePath('dummyfile.txt'),

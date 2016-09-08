@@ -16,6 +16,45 @@ Then generate your new project:
 yo tb-react
 ```
 
+`rn` script is alias for `yo tb-react`
+
+```
+rn component Order/OrderView/OrderPrintPreviewButton
+```
+
+will create file `app/components/Order/OrderView/OrderPrintPreviewButton.js`
+
+```
+import React, {Component} from 'react'
+import {
+  StyleSheet, View,
+} from 'react-native'
+
+class OrderPrintPreviewButton extends Component {
+  constructor(props) {
+    super(props)
+
+    // this.state = {
+    // }
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+      </View>
+    )
+  }
+}
+
+let styles = StyleSheet.create({
+  container: {
+
+  }
+});
+
+export default OrderPrintPreviewButton
+```
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
