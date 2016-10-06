@@ -10,18 +10,12 @@ npm install -g yo
 npm install -g generator-tb-react
 ```
 
-Then generate your new project:
+Then generate your components using following commands:
 
-```bash
-yo tb-react
-```
+* `r` / `react-generator` script is alias for `yo tb-react:*` to generate React components
+* `rn` / `react-native-generator` script is alias for `yo tb-react:native-*` to generate React Native component
 
-Binary files:
-
-* `r` / `react-generator` script is alias for `yo tb-react:*`
-* `rn` / `react-native-generator` script is alias for `yo tb-react:native-*`
-
-## Example
+## Usage
 
 ### Create React component
 
