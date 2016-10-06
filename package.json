@@ -47,5 +47,11 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
+  "bin": {
+    "r": "./bin/react-generator",
+    "react-generator": "./bin/react-generator",
+    "react-native-generator": "./bin/react-native-generator",
+    "rn": "./bin/react-native-generator"
+  },
   "license": "Apache-2.0"
 }
