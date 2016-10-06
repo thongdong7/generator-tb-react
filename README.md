@@ -1,5 +1,5 @@
 # generator-tb-react [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Generator for react with specific project structure
+> Generator for react and react-native with specific project structure
 
 ## Installation
 
