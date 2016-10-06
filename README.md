@@ -16,15 +16,53 @@ Then generate your new project:
 yo tb-react
 ```
 
-`rn` script is alias for `yo tb-react`
+Binary files:
+
+* `r` / `react-generator` script is alias for `yo tb-react:*`
+* `rn` / `react-native-generator` script is alias for `yo tb-react:native-*`
+
+## Example
+
+### Create React component
 
 ```
-rn component Order/OrderView/OrderPrintPreviewButton
+r comp User/UserView
+```
+
+will create file `src/components/User/UserView.js`
+
+```javascript
+import React, {Component} from 'react'
+
+class UserView extends Component {
+  constructor(props) {
+    super(props)
+
+    // this.state = {
+    // }
+  }
+
+  render() {
+    return (
+      <div>
+        Place holder for UserView
+      </div>
+    )
+  }
+}
+
+export default UserView
+```
+
+
+### Create React Native component
+```
+rn comp Order/OrderView/OrderPrintPreviewButton
 ```
 
 will create file `app/components/Order/OrderView/OrderPrintPreviewButton.js`
 
-```
+```javascript
 import React, {Component} from 'react'
 import {
   StyleSheet, View,
